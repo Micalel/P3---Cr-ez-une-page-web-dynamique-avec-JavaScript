@@ -103,6 +103,21 @@ nav li {
 	color: #B1663C;
 	cursor: pointer;
 }
+
+.links > a, a:hover {
+
+	text-decoration: none;
+	color: #B1663C;
+
+}
+
+a:visited {
+
+	text-decoration: none;
+	color: black;
+
+}
+
 #introduction {
 	display: flex;
 	align-items: center;
