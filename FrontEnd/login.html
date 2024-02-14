@@ -11,11 +11,12 @@
 	<!-- meta : infos given to browsers about what is in the website -->
 	<link rel="stylesheet" href="./assets/css/normalize.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
+	<script src="./assets/scripts/login.js" defer></script>
 </head>
 
 <body>
 <header>
-	<h1>Sophie Bluel <span>Architecte d'inteérieur</span></h1>
+	<a href="/FrontEnd/index.html" class="links"><h1>Sophie Bluel <span>Architecte d'inteérieur</span></h1></a>
 	<nav>
 		<ul>
 			<li class="links">projets</li>
@@ -26,6 +27,19 @@
 	</nav>
 </header>
 <main>
+	<div class="login-container">
+		<h1 class="login-title">Log In</h1>
+		<form class="login-form" novalidate>
+			<label for="usermail"> E-mail </label>
+			<input class="login-input-email" type="email" id="user-email" name="email" value="sophie.bluel@test.tld">
+			<label for="userpwd"> Password </label>
+			<input class="login-input-pwd" type="password" id="user-pwd" name="pwd" value="S0phie">
+			<p id="errorMessage"></p>
+			<button type="submit" class="login-button"> Se connecter </button>
+		</form>
+		
+		<a class="login-forgotten">Mot de passe oublié?</a>
+	</div>	
 </main>
 <footer>
 	<nav>
