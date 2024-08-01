@@ -392,11 +392,12 @@ label[for="userpwd"]{
 
 .modal-photo-container {
 
-	width: 100%;
 	display: flex;
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 	border-bottom: solid rgba(179, 179, 179, 1);
 
 }

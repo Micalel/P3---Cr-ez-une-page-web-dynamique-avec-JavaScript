@@ -2,7 +2,7 @@ const token = localStorage.getItem('token')
 
 if (token) {
 
-    setLoginLinkText(true)
+    setLoginLinkText(true)  
 
     /**
      * 
