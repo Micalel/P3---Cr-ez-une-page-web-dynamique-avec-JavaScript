@@ -22,7 +22,7 @@ const isFormValid = (email, pwd) => {
         errorMessage = 'Format de l\'adresse e-mail invalide'
 
     } else if(!regexPassword.test(pwd) ) { 
-        errorMessage = 'Format du mot mot de passe invalide'
+        errorMessage = 'Format du mot de passe invalide'
     }
 
     errorMessageNode.innerHTML = errorMessage
