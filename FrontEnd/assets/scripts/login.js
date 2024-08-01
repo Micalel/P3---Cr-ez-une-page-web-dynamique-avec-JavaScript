@@ -19,10 +19,10 @@ const isFormValid = (email, pwd) => {
         errorMessage = 'Veuillez insérer une adresse e-mail et un mot de passe'
 
     } else if (!regexEmail.test(email)) {
-        errorMessage = 'Format de l\'adresse e-mail invalide'
+        errorMessage = 'Adresse e-mail invalide'
 
     } else if(!regexPassword.test(pwd) ) { 
-        errorMessage = 'Format du mot de passe invalide'
+        errorMessage = 'Mot de passe invalide'
     }
 
     errorMessageNode.innerHTML = errorMessage
